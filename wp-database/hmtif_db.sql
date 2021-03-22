@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 22, 2021 at 04:06 PM
--- Server version: 10.4.6-MariaDB
--- PHP Version: 7.1.32
+-- Waktu pembuatan: 22 Mar 2021 pada 16.52
+-- Versi server: 10.4.6-MariaDB
+-- Versi PHP: 7.3.9
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_commentmeta`
+-- Struktur dari tabel `wp_commentmeta`
 --
 
 CREATE TABLE `wp_commentmeta` (
@@ -38,7 +38,7 @@ CREATE TABLE `wp_commentmeta` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_comments`
+-- Struktur dari tabel `wp_comments`
 --
 
 CREATE TABLE `wp_comments` (
@@ -60,7 +60,7 @@ CREATE TABLE `wp_comments` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `wp_comments`
+-- Dumping data untuk tabel `wp_comments`
 --
 
 INSERT INTO `wp_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `comment_author_email`, `comment_author_url`, `comment_author_IP`, `comment_date`, `comment_date_gmt`, `comment_content`, `comment_karma`, `comment_approved`, `comment_agent`, `comment_type`, `comment_parent`, `user_id`) VALUES
@@ -69,7 +69,7 @@ INSERT INTO `wp_comments` (`comment_ID`, `comment_post_ID`, `comment_author`, `c
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_links`
+-- Struktur dari tabel `wp_links`
 --
 
 CREATE TABLE `wp_links` (
@@ -91,7 +91,7 @@ CREATE TABLE `wp_links` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_options`
+-- Struktur dari tabel `wp_options`
 --
 
 CREATE TABLE `wp_options` (
@@ -102,7 +102,7 @@ CREATE TABLE `wp_options` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `wp_options`
+-- Dumping data untuk tabel `wp_options`
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
@@ -205,7 +205,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (97, 'auto_update_core_major', 'enabled', 'yes'),
 (98, 'initial_db_version', '49752', 'yes'),
 (99, 'wp_user_roles', 'a:5:{s:13:\"administrator\";a:2:{s:4:\"name\";s:13:\"Administrator\";s:12:\"capabilities\";a:61:{s:13:\"switch_themes\";b:1;s:11:\"edit_themes\";b:1;s:16:\"activate_plugins\";b:1;s:12:\"edit_plugins\";b:1;s:10:\"edit_users\";b:1;s:10:\"edit_files\";b:1;s:14:\"manage_options\";b:1;s:17:\"moderate_comments\";b:1;s:17:\"manage_categories\";b:1;s:12:\"manage_links\";b:1;s:12:\"upload_files\";b:1;s:6:\"import\";b:1;s:15:\"unfiltered_html\";b:1;s:10:\"edit_posts\";b:1;s:17:\"edit_others_posts\";b:1;s:20:\"edit_published_posts\";b:1;s:13:\"publish_posts\";b:1;s:10:\"edit_pages\";b:1;s:4:\"read\";b:1;s:8:\"level_10\";b:1;s:7:\"level_9\";b:1;s:7:\"level_8\";b:1;s:7:\"level_7\";b:1;s:7:\"level_6\";b:1;s:7:\"level_5\";b:1;s:7:\"level_4\";b:1;s:7:\"level_3\";b:1;s:7:\"level_2\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:17:\"edit_others_pages\";b:1;s:20:\"edit_published_pages\";b:1;s:13:\"publish_pages\";b:1;s:12:\"delete_pages\";b:1;s:19:\"delete_others_pages\";b:1;s:22:\"delete_published_pages\";b:1;s:12:\"delete_posts\";b:1;s:19:\"delete_others_posts\";b:1;s:22:\"delete_published_posts\";b:1;s:20:\"delete_private_posts\";b:1;s:18:\"edit_private_posts\";b:1;s:18:\"read_private_posts\";b:1;s:20:\"delete_private_pages\";b:1;s:18:\"edit_private_pages\";b:1;s:18:\"read_private_pages\";b:1;s:12:\"delete_users\";b:1;s:12:\"create_users\";b:1;s:17:\"unfiltered_upload\";b:1;s:14:\"edit_dashboard\";b:1;s:14:\"update_plugins\";b:1;s:14:\"delete_plugins\";b:1;s:15:\"install_plugins\";b:1;s:13:\"update_themes\";b:1;s:14:\"install_themes\";b:1;s:11:\"update_core\";b:1;s:10:\"list_users\";b:1;s:12:\"remove_users\";b:1;s:13:\"promote_users\";b:1;s:18:\"edit_theme_options\";b:1;s:13:\"delete_themes\";b:1;s:6:\"export\";b:1;}}s:6:\"editor\";a:2:{s:4:\"name\";s:6:\"Editor\";s:12:\"capabilities\";a:34:{s:17:\"moderate_comments\";b:1;s:17:\"manage_categories\";b:1;s:12:\"manage_links\";b:1;s:12:\"upload_files\";b:1;s:15:\"unfiltered_html\";b:1;s:10:\"edit_posts\";b:1;s:17:\"edit_others_posts\";b:1;s:20:\"edit_published_posts\";b:1;s:13:\"publish_posts\";b:1;s:10:\"edit_pages\";b:1;s:4:\"read\";b:1;s:7:\"level_7\";b:1;s:7:\"level_6\";b:1;s:7:\"level_5\";b:1;s:7:\"level_4\";b:1;s:7:\"level_3\";b:1;s:7:\"level_2\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:17:\"edit_others_pages\";b:1;s:20:\"edit_published_pages\";b:1;s:13:\"publish_pages\";b:1;s:12:\"delete_pages\";b:1;s:19:\"delete_others_pages\";b:1;s:22:\"delete_published_pages\";b:1;s:12:\"delete_posts\";b:1;s:19:\"delete_others_posts\";b:1;s:22:\"delete_published_posts\";b:1;s:20:\"delete_private_posts\";b:1;s:18:\"edit_private_posts\";b:1;s:18:\"read_private_posts\";b:1;s:20:\"delete_private_pages\";b:1;s:18:\"edit_private_pages\";b:1;s:18:\"read_private_pages\";b:1;}}s:6:\"author\";a:2:{s:4:\"name\";s:6:\"Author\";s:12:\"capabilities\";a:10:{s:12:\"upload_files\";b:1;s:10:\"edit_posts\";b:1;s:20:\"edit_published_posts\";b:1;s:13:\"publish_posts\";b:1;s:4:\"read\";b:1;s:7:\"level_2\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:12:\"delete_posts\";b:1;s:22:\"delete_published_posts\";b:1;}}s:11:\"contributor\";a:2:{s:4:\"name\";s:11:\"Contributor\";s:12:\"capabilities\";a:5:{s:10:\"edit_posts\";b:1;s:4:\"read\";b:1;s:7:\"level_1\";b:1;s:7:\"level_0\";b:1;s:12:\"delete_posts\";b:1;}}s:10:\"subscriber\";a:2:{s:4:\"name\";s:10:\"Subscriber\";s:12:\"capabilities\";a:2:{s:4:\"read\";b:1;s:7:\"level_0\";b:1;}}}', 'yes'),
-(100, 'fresh_site', '1', 'yes'),
+(100, 'fresh_site', '0', 'yes'),
 (101, 'widget_search', 'a:2:{i:2;a:1:{s:5:\"title\";s:0:\"\";}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (102, 'widget_recent-posts', 'a:2:{i:2;a:2:{s:5:\"title\";s:0:\"\";s:6:\"number\";i:5;}s:12:\"_multiwidget\";i:1;}', 'yes'),
 (103, 'widget_recent-comments', 'a:2:{i:2;a:2:{s:5:\"title\";s:0:\"\";s:6:\"number\";i:5;}s:12:\"_multiwidget\";i:1;}', 'yes'),
@@ -233,7 +233,7 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (130, '_site_transient_timeout_php_check_b3655adab148a1a6c8391bd3893ea554', '1617030003', 'no'),
 (131, '_site_transient_php_check_b3655adab148a1a6c8391bd3893ea554', 'a:5:{s:19:\"recommended_version\";s:3:\"7.4\";s:15:\"minimum_version\";s:6:\"5.6.20\";s:12:\"is_supported\";b:0;s:9:\"is_secure\";b:0;s:13:\"is_acceptable\";b:0;}', 'no'),
 (133, 'can_compress_scripts', '1', 'no'),
-(134, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1616468406', 'no'),
+(134, '_site_transient_timeout_community-events-d41d8cd98f00b204e9800998ecf8427e', '1616471480', 'no'),
 (135, '_site_transient_community-events-d41d8cd98f00b204e9800998ecf8427e', 'a:4:{s:9:\"sandboxed\";b:0;s:5:\"error\";N;s:8:\"location\";a:1:{s:2:\"ip\";b:0;}s:6:\"events\";a:2:{i:0;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:66:\"Demo + Discussion group: Intro to Publishing with the Block Editor\";s:3:\"url\";s:68:\"https://www.meetup.com/learn-wordpress-discussions/events/276945655/\";s:6:\"meetup\";s:27:\"Learn WordPress Discussions\";s:10:\"meetup_url\";s:51:\"https://www.meetup.com/learn-wordpress-discussions/\";s:4:\"date\";s:19:\"2021-03-24 07:00:00\";s:8:\"end_date\";s:19:\"2021-03-24 08:00:00\";s:20:\"start_unix_timestamp\";i:1616594400;s:18:\"end_unix_timestamp\";i:1616598000;s:8:\"location\";a:4:{s:8:\"location\";s:6:\"Online\";s:7:\"country\";s:2:\"US\";s:8:\"latitude\";d:37.779998779297;s:9:\"longitude\";d:-122.41999816895;}}i:1;a:10:{s:4:\"type\";s:6:\"meetup\";s:5:\"title\";s:75:\"#WPJKT 30: Web Stories dan WooCommerce untuk Membuat Jualan Menjadi Kreatif\";s:3:\"url\";s:65:\"https://www.meetup.com/Jakarta-WordPress-Meetup/events/276941318/\";s:6:\"meetup\";s:24:\"Jakarta WordPress Meetup\";s:10:\"meetup_url\";s:48:\"https://www.meetup.com/Jakarta-WordPress-Meetup/\";s:4:\"date\";s:19:\"2021-03-24 19:30:00\";s:8:\"end_date\";s:19:\"2021-03-24 21:30:00\";s:20:\"start_unix_timestamp\";i:1616589000;s:18:\"end_unix_timestamp\";i:1616596200;s:8:\"location\";a:4:{s:8:\"location\";s:6:\"Online\";s:7:\"country\";s:2:\"ID\";s:8:\"latitude\";d:-6.1799998283386;s:9:\"longitude\";d:106.83000183105;}}}}', 'no'),
 (136, '_transient_timeout_feed_9bbd59226dc36b9b26cd43f15694c5c3', '1616468407', 'no');
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
@@ -264,12 +264,20 @@ INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`
 (163, '_transient_timeout_elementor_remote_info_api_data_3.1.4', '1616468550', 'no'),
 (164, '_transient_elementor_remote_info_api_data_3.1.4', 'a:4:{s:9:\"timestamp\";s:10:\"1616421802\";s:14:\"upgrade_notice\";a:3:{s:7:\"version\";s:5:\"2.0.0\";s:7:\"message\";s:0:\"\";s:11:\"update_link\";s:0:\"\";}s:11:\"pro_widgets\";a:60:{i:0;a:4:{s:4:\"name\";s:5:\"posts\";s:5:\"title\";s:5:\"Posts\";s:4:\"icon\";s:15:\"eicon-post-list\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:1;a:4:{s:4:\"name\";s:9:\"portfolio\";s:5:\"title\";s:9:\"Portfolio\";s:4:\"icon\";s:18:\"eicon-gallery-grid\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:2;a:4:{s:4:\"name\";s:7:\"gallery\";s:5:\"title\";s:7:\"Gallery\";s:4:\"icon\";s:23:\"eicon-gallery-justified\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:3;a:4:{s:4:\"name\";s:4:\"form\";s:5:\"title\";s:4:\"Form\";s:4:\"icon\";s:21:\"eicon-form-horizontal\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:4;a:4:{s:4:\"name\";s:5:\"login\";s:5:\"title\";s:5:\"Login\";s:4:\"icon\";s:15:\"eicon-lock-user\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:5;a:4:{s:4:\"name\";s:6:\"slides\";s:5:\"title\";s:6:\"Slides\";s:4:\"icon\";s:12:\"eicon-slides\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:6;a:4:{s:4:\"name\";s:8:\"nav-menu\";s:5:\"title\";s:8:\"Nav Menu\";s:4:\"icon\";s:14:\"eicon-nav-menu\";s:10:\"categories\";s:33:\"[\"pro-elements\",\"theme-elements\"]\";}i:7;a:4:{s:4:\"name\";s:17:\"animated-headline\";s:5:\"title\";s:17:\"Animated Headline\";s:4:\"icon\";s:23:\"eicon-animated-headline\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:8;a:4:{s:4:\"name\";s:10:\"price-list\";s:5:\"title\";s:10:\"Price List\";s:4:\"icon\";s:16:\"eicon-price-list\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:9;a:4:{s:4:\"name\";s:11:\"price-table\";s:5:\"title\";s:11:\"Price Table\";s:4:\"icon\";s:17:\"eicon-price-table\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:10;a:4:{s:4:\"name\";s:8:\"flip-box\";s:5:\"title\";s:8:\"Flip Box\";s:4:\"icon\";s:14:\"eicon-flip-box\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:11;a:4:{s:4:\"name\";s:14:\"call-to-action\";s:5:\"title\";s:14:\"Call to Action\";s:4:\"icon\";s:20:\"eicon-image-rollover\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:12;a:4:{s:4:\"name\";s:14:\"media-carousel\";s:5:\"title\";s:14:\"Media Carousel\";s:4:\"icon\";s:20:\"eicon-media-carousel\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:13;a:4:{s:4:\"name\";s:20:\"testimonial-carousel\";s:5:\"title\";s:20:\"Testimonial Carousel\";s:4:\"icon\";s:26:\"eicon-testimonial-carousel\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:14;a:4:{s:4:\"name\";s:7:\"reviews\";s:5:\"title\";s:7:\"Reviews\";s:4:\"icon\";s:12:\"eicon-review\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:15;a:4:{s:4:\"name\";s:17:\"table-of-contents\";s:5:\"title\";s:17:\"Table of Contents\";s:4:\"icon\";s:23:\"eicon-table-of-contents\";s:10:\"categories\";s:33:\"[\"pro-elements\",\"theme-elements\"]\";}i:16;a:4:{s:4:\"name\";s:9:\"countdown\";s:5:\"title\";s:9:\"Countdown\";s:4:\"icon\";s:15:\"eicon-countdown\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:17;a:4:{s:4:\"name\";s:13:\"share-buttons\";s:5:\"title\";s:13:\"Share Buttons\";s:4:\"icon\";s:11:\"eicon-share\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:18;a:4:{s:4:\"name\";s:11:\"search-form\";s:5:\"title\";s:11:\"Search Form\";s:4:\"icon\";s:17:\"eicon-site-search\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:19;a:4:{s:4:\"name\";s:10:\"author-box\";s:5:\"title\";s:10:\"Author Box\";s:4:\"icon\";s:12:\"eicon-person\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:20;a:4:{s:4:\"name\";s:13:\"post-comments\";s:5:\"title\";s:13:\"Post Comments\";s:4:\"icon\";s:14:\"eicon-comments\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:21;a:4:{s:4:\"name\";s:15:\"post-navigation\";s:5:\"title\";s:15:\"Post Navigation\";s:4:\"icon\";s:21:\"eicon-post-navigation\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:22;a:4:{s:4:\"name\";s:9:\"post-info\";s:5:\"title\";s:9:\"Post Info\";s:4:\"icon\";s:15:\"eicon-post-info\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:23;a:4:{s:4:\"name\";s:7:\"sitemap\";s:5:\"title\";s:7:\"Sitemap\";s:4:\"icon\";s:13:\"eicon-sitemap\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:24;a:4:{s:4:\"name\";s:11:\"breadcrumbs\";s:5:\"title\";s:11:\"Breadcrumbs\";s:4:\"icon\";s:11:\"eicon-yoast\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:25;a:4:{s:4:\"name\";s:10:\"blockquote\";s:5:\"title\";s:10:\"Blockquote\";s:4:\"icon\";s:16:\"eicon-blockquote\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:26;a:4:{s:4:\"name\";s:19:\"wc-archive-products\";s:5:\"title\";s:16:\"Archive Products\";s:4:\"icon\";s:14:\"eicon-products\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:27;a:4:{s:4:\"name\";s:31:\"woocommerce-archive-description\";s:5:\"title\";s:19:\"Archive Description\";s:4:\"icon\";s:25:\"eicon-product-description\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:28;a:4:{s:4:\"name\";s:20:\"woocommerce-products\";s:5:\"title\";s:8:\"Products\";s:4:\"icon\";s:14:\"eicon-products\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:29;a:4:{s:4:\"name\";s:22:\"woocommerce-breadcrumb\";s:5:\"title\";s:23:\"WooCommerce Breadcrumbs\";s:4:\"icon\";s:25:\"eicon-product-breadcrumbs\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:30;a:4:{s:4:\"name\";s:14:\"wc-add-to-cart\";s:5:\"title\";s:18:\"Custom Add To Cart\";s:4:\"icon\";s:17:\"eicon-woocommerce\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:31;a:4:{s:4:\"name\";s:11:\"wc-elements\";s:5:\"title\";s:17:\"WooCommerce Pages\";s:4:\"icon\";s:19:\"eicon-product-pages\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:32;a:4:{s:4:\"name\";s:13:\"wc-categories\";s:5:\"title\";s:18:\"Product Categories\";s:4:\"icon\";s:24:\"eicon-product-categories\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:33;a:4:{s:4:\"name\";s:21:\"woocommerce-menu-cart\";s:5:\"title\";s:9:\"Menu Cart\";s:4:\"icon\";s:10:\"eicon-cart\";s:10:\"categories\";s:41:\"[\"theme-elements\",\"woocommerce-elements\"]\";}i:34;a:4:{s:4:\"name\";s:25:\"woocommerce-product-title\";s:5:\"title\";s:13:\"Product Title\";s:4:\"icon\";s:19:\"eicon-product-title\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:35;a:4:{s:4:\"name\";s:26:\"woocommerce-product-images\";s:5:\"title\";s:14:\"Product Images\";s:4:\"icon\";s:20:\"eicon-product-images\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:36;a:4:{s:4:\"name\";s:25:\"woocommerce-product-price\";s:5:\"title\";s:13:\"Product Price\";s:4:\"icon\";s:19:\"eicon-product-price\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:37;a:4:{s:4:\"name\";s:31:\"woocommerce-product-add-to-cart\";s:5:\"title\";s:11:\"Add To Cart\";s:4:\"icon\";s:25:\"eicon-product-add-to-cart\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:38;a:4:{s:4:\"name\";s:26:\"woocommerce-product-rating\";s:5:\"title\";s:14:\"Product Rating\";s:4:\"icon\";s:20:\"eicon-product-rating\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:39;a:4:{s:4:\"name\";s:25:\"woocommerce-product-stock\";s:5:\"title\";s:13:\"Product Stock\";s:4:\"icon\";s:19:\"eicon-product-stock\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:40;a:4:{s:4:\"name\";s:24:\"woocommerce-product-meta\";s:5:\"title\";s:12:\"Product Meta\";s:4:\"icon\";s:18:\"eicon-product-meta\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:41;a:4:{s:4:\"name\";s:37:\"woocommerce-product-short-description\";s:5:\"title\";s:17:\"Short Description\";s:4:\"icon\";s:25:\"eicon-product-description\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:42;a:4:{s:4:\"name\";s:29:\"woocommerce-product-data-tabs\";s:5:\"title\";s:17:\"Product Data Tabs\";s:4:\"icon\";s:18:\"eicon-product-tabs\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:43;a:4:{s:4:\"name\";s:42:\"woocommerce-product-additional-information\";s:5:\"title\";s:22:\"Additional Information\";s:4:\"icon\";s:19:\" eicon-product-info\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:44;a:4:{s:4:\"name\";s:27:\"woocommerce-product-related\";s:5:\"title\";s:15:\"Product Related\";s:4:\"icon\";s:21:\"eicon-product-related\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:45;a:4:{s:4:\"name\";s:26:\"woocommerce-product-upsell\";s:5:\"title\";s:7:\"Upsells\";s:4:\"icon\";s:20:\"eicon-product-upsell\";s:10:\"categories\";s:24:\"[\"woocommerce-elements\"]\";}i:46;a:4:{s:4:\"name\";s:6:\"lottie\";s:5:\"title\";s:6:\"Lottie\";s:4:\"icon\";s:12:\"eicon-lottie\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:47;a:4:{s:4:\"name\";s:15:\"facebook-button\";s:5:\"title\";s:15:\"Facebook Button\";s:4:\"icon\";s:23:\"eicon-facebook-like-box\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:48;a:4:{s:4:\"name\";s:17:\"facebook-comments\";s:5:\"title\";s:17:\"Facebook Comments\";s:4:\"icon\";s:23:\"eicon-facebook-comments\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:49;a:4:{s:4:\"name\";s:14:\"facebook-embed\";s:5:\"title\";s:14:\"Facebook Embed\";s:4:\"icon\";s:14:\"eicon-fb-embed\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:50;a:4:{s:4:\"name\";s:13:\"facebook-page\";s:5:\"title\";s:13:\"Facebook Page\";s:4:\"icon\";s:13:\"eicon-fb-feed\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:51;a:4:{s:4:\"name\";s:8:\"template\";s:5:\"title\";s:8:\"Template\";s:4:\"icon\";s:19:\"eicon-document-file\";s:10:\"categories\";s:16:\"[\"pro-elements\"]\";}i:52;a:4:{s:4:\"name\";s:15:\"theme-site-logo\";s:5:\"title\";s:9:\"Site Logo\";s:4:\"icon\";s:15:\"eicon-site-logo\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:53;a:4:{s:4:\"name\";s:16:\"theme-site-title\";s:5:\"title\";s:10:\"Site Title\";s:4:\"icon\";s:16:\"eicon-site-title\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:54;a:4:{s:4:\"name\";s:16:\"theme-page-title\";s:5:\"title\";s:10:\"Page Title\";s:4:\"icon\";s:19:\"eicon-archive-title\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:55;a:4:{s:4:\"name\";s:16:\"theme-post-title\";s:5:\"title\";s:10:\"Post Title\";s:4:\"icon\";s:16:\"eicon-post-title\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:56;a:4:{s:4:\"name\";s:18:\"theme-post-excerpt\";s:5:\"title\";s:12:\"Post Excerpt\";s:4:\"icon\";s:18:\"eicon-post-excerpt\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:57;a:4:{s:4:\"name\";s:25:\"theme-post-featured-image\";s:5:\"title\";s:14:\"Featured Image\";s:4:\"icon\";s:20:\"eicon-featured-image\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:58;a:4:{s:4:\"name\";s:19:\"theme-archive-title\";s:5:\"title\";s:13:\"Archive Title\";s:4:\"icon\";s:19:\"eicon-archive-title\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}i:59;a:4:{s:4:\"name\";s:13:\"archive-posts\";s:5:\"title\";s:13:\"Archive Posts\";s:4:\"icon\";s:19:\"eicon-archive-posts\";s:10:\"categories\";s:18:\"[\"theme-elements\"]\";}}s:17:\"canary_deployment\";a:2:{s:11:\"plugin_info\";a:11:{s:2:\"id\";s:23:\"w.org/plugins/elementor\";s:4:\"slug\";s:9:\"elementor\";s:6:\"plugin\";s:23:\"elementor/elementor.php\";s:11:\"new_version\";s:5:\"3.1.0\";s:7:\"package\";s:58:\"https://downloads.wordpress.org/plugin/elementor.3.1.0.zip\";s:3:\"url\";s:40:\"https://wordpress.org/plugins/elementor/\";s:5:\"icons\";a:3:{s:2:\"2x\";s:62:\"https://ps.w.org/elementor/assets/icon-256x256.png?rev=1427768\";s:2:\"1x\";s:54:\"https://ps.w.org/elementor/assets/icon.svg?rev=1426809\";s:3:\"svg\";s:54:\"https://ps.w.org/elementor/assets/icon.svg?rev=1426809\";}s:7:\"banners\";a:2:{s:2:\"2x\";s:65:\"https://ps.w.org/elementor/assets/banner-1544x500.png?rev=1475479\";s:2:\"1x\";s:64:\"https://ps.w.org/elementor/assets/banner-772x250.png?rev=1475479\";}s:11:\"banners_rtl\";a:0:{}s:6:\"tested\";s:3:\"5.6\";s:12:\"requires_php\";s:3:\"5.6\";}s:10:\"conditions\";a:1:{i:0;a:1:{i:0;a:3:{s:4:\"type\";s:8:\"language\";s:9:\"languages\";a:27:{i:0;s:5:\"he_IL\";i:1;s:5:\"nl_NL\";i:2;s:5:\"en_GB\";i:3;s:5:\"en_NZ\";i:4;s:5:\"en_ZA\";i:5;s:5:\"en_AU\";i:6;s:5:\"en_CA\";i:7;s:5:\"sv_SE\";i:8;s:5:\"da_DK\";i:9;s:5:\"fr_FR\";i:10;s:5:\"nl_NL\";i:11;s:5:\"nb_NO\";i:12;s:5:\"de_AT\";i:13;s:2:\"fi\";i:14;s:5:\"it_IT\";i:15;s:5:\"nn_NO\";i:16;s:5:\"de_CH\";i:17;s:5:\"en_GB\";i:18;s:5:\"is_IS\";i:19;s:2:\"ga\";i:20;s:5:\"fr_BE\";i:21;s:5:\"nl_BE\";i:22;s:3:\"ast\";i:23;s:5:\"lb_LU\";i:24;s:5:\"es_ES\";i:25;s:5:\"pt_PT\";i:26;s:3:\"mlt\";}s:8:\"operator\";s:2:\"in\";}}}}}', 'no'),
 (165, '_hfe_db_version', '1.5.7', 'yes'),
-(166, 'bsf_analytics_installed_time', '1616425354', 'no');
+(166, 'bsf_analytics_installed_time', '1616425354', 'no'),
+(167, 'elementor_active_kit', '5', 'yes'),
+(168, '_elementor_global_css', 'a:6:{s:4:\"time\";i:1616426108;s:5:\"fonts\";a:0:{}s:5:\"icons\";a:0:{}s:20:\"dynamic_elements_ids\";a:0:{}s:6:\"status\";s:4:\"file\";i:0;b:0;}', 'yes'),
+(169, '_site_transient_timeout_php_check_a5b4d2808570efd012607394df5c6fa9', '1617030926', 'no'),
+(170, '_site_transient_php_check_a5b4d2808570efd012607394df5c6fa9', 'a:5:{s:19:\"recommended_version\";s:3:\"7.4\";s:15:\"minimum_version\";s:6:\"5.6.20\";s:12:\"is_supported\";b:1;s:9:\"is_secure\";b:1;s:13:\"is_acceptable\";b:1;}', 'no'),
+(171, 'elementor_scheme_color', 'a:4:{i:1;s:7:\"#6ec1e4\";i:2;s:7:\"#54595f\";i:3;s:7:\"#7a7a7a\";i:4;s:7:\"#61ce70\";}', 'yes'),
+(172, 'elementor_scheme_typography', 'a:4:{i:1;a:2:{s:11:\"font_family\";s:6:\"Roboto\";s:11:\"font_weight\";s:3:\"600\";}i:2;a:2:{s:11:\"font_family\";s:11:\"Roboto Slab\";s:11:\"font_weight\";s:3:\"400\";}i:3;a:2:{s:11:\"font_family\";s:6:\"Roboto\";s:11:\"font_weight\";s:3:\"400\";}i:4;a:2:{s:11:\"font_family\";s:6:\"Roboto\";s:11:\"font_weight\";s:3:\"500\";}}', 'yes'),
+(173, 'elementor_scheme_color-picker', 'a:8:{i:1;s:7:\"#6ec1e4\";i:2;s:7:\"#54595f\";i:3;s:7:\"#7a7a7a\";i:4;s:7:\"#61ce70\";i:5;s:7:\"#4054b2\";i:6;s:7:\"#23a455\";i:7;s:4:\"#000\";i:8;s:4:\"#fff\";}', 'yes'),
+(174, 'elementor_controls_usage', 'a:1:{s:7:\"wp-page\";a:3:{s:5:\"image\";a:2:{s:5:\"count\";i:1;s:8:\"controls\";a:1:{s:7:\"content\";a:1:{s:13:\"section_image\";a:1:{s:5:\"image\";i:1;}}}}s:6:\"column\";a:2:{s:5:\"count\";i:3;s:8:\"controls\";a:1:{s:6:\"layout\";a:1:{s:6:\"layout\";a:1:{s:12:\"_inline_size\";i:3;}}}}s:7:\"section\";a:2:{s:5:\"count\";i:2;s:8:\"controls\";a:1:{s:6:\"layout\";a:1:{s:17:\"section_structure\";a:1:{s:9:\"structure\";i:1;}}}}}}', 'no');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_postmeta`
+-- Struktur dari tabel `wp_postmeta`
 --
 
 CREATE TABLE `wp_postmeta` (
@@ -280,17 +288,56 @@ CREATE TABLE `wp_postmeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `wp_postmeta`
+-- Dumping data untuk tabel `wp_postmeta`
 --
 
 INSERT INTO `wp_postmeta` (`meta_id`, `post_id`, `meta_key`, `meta_value`) VALUES
 (1, 2, '_wp_page_template', 'default'),
-(2, 3, '_wp_page_template', 'default');
+(2, 3, '_wp_page_template', 'default'),
+(3, 5, '_elementor_edit_mode', 'builder'),
+(4, 5, '_elementor_template_type', 'kit'),
+(5, 5, '_elementor_css', 'a:6:{s:4:\"time\";i:1616426106;s:5:\"fonts\";a:2:{i:0;s:6:\"Roboto\";i:1;s:11:\"Roboto Slab\";}s:5:\"icons\";a:0:{}s:20:\"dynamic_elements_ids\";a:0:{}s:6:\"status\";s:4:\"file\";i:0;s:0:\"\";}'),
+(6, 6, '_edit_lock', '1616426059:1'),
+(7, 6, '_elementor_edit_mode', 'builder'),
+(8, 6, '_elementor_template_type', 'wp-page'),
+(9, 6, '_elementor_version', '3.1.4'),
+(10, 8, '_wp_attached_file', '2021/03/kahim.png'),
+(11, 8, '_wp_attachment_metadata', 'a:5:{s:5:\"width\";i:500;s:6:\"height\";i:620;s:4:\"file\";s:17:\"2021/03/kahim.png\";s:5:\"sizes\";a:2:{s:6:\"medium\";a:4:{s:4:\"file\";s:17:\"kahim-242x300.png\";s:5:\"width\";i:242;s:6:\"height\";i:300;s:9:\"mime-type\";s:9:\"image/png\";}s:9:\"thumbnail\";a:4:{s:4:\"file\";s:17:\"kahim-150x150.png\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:9:\"image/png\";}}s:10:\"image_meta\";a:12:{s:8:\"aperture\";s:1:\"0\";s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";s:1:\"0\";s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";s:1:\"0\";s:3:\"iso\";s:1:\"0\";s:13:\"shutter_speed\";s:1:\"0\";s:5:\"title\";s:0:\"\";s:11:\"orientation\";s:1:\"0\";s:8:\"keywords\";a:0:{}}}'),
+(12, 9, '_elementor_edit_mode', 'builder'),
+(13, 9, '_elementor_template_type', 'wp-page'),
+(14, 9, '_elementor_version', '3.1.4'),
+(15, 10, '_elementor_edit_mode', 'builder'),
+(16, 10, '_elementor_template_type', 'wp-page'),
+(17, 10, '_elementor_version', '3.1.4'),
+(18, 6, '_wp_page_template', 'default'),
+(19, 6, '_elementor_data', '[{\"id\":\"8020fcf\",\"elType\":\"section\",\"settings\":[],\"elements\":[{\"id\":\"604c390\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"0e049bd\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\"},\"elements\":[{\"id\":\"1c86a4e\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[{\"id\":\"58bc928\",\"elType\":\"widget\",\"settings\":{\"image\":{\"url\":\"http:\\/\\/localhost\\/wpHMTIF\\/wp-content\\/uploads\\/2021\\/03\\/kahim.png\",\"id\":8}},\"elements\":[],\"widgetType\":\"image\"}],\"isInner\":true},{\"id\":\"01df222\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false}]'),
+(20, 11, '_elementor_edit_mode', 'builder'),
+(21, 11, '_elementor_template_type', 'wp-page'),
+(22, 11, '_elementor_version', '3.1.4'),
+(23, 11, '_wp_page_template', 'default'),
+(24, 11, '_elementor_data', '[{\"id\":\"8020fcf\",\"elType\":\"section\",\"settings\":[],\"elements\":[{\"id\":\"604c390\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"0e049bd\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\"},\"elements\":[{\"id\":\"1c86a4e\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[{\"id\":\"58bc928\",\"elType\":\"widget\",\"settings\":{\"image\":{\"url\":\"http:\\/\\/localhost\\/wpHMTIF\\/wp-content\\/uploads\\/2021\\/03\\/kahim.png\",\"id\":8}},\"elements\":[],\"widgetType\":\"image\"}],\"isInner\":true},{\"id\":\"01df222\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false}]'),
+(25, 12, '_elementor_edit_mode', 'builder'),
+(26, 12, '_elementor_template_type', 'wp-page'),
+(27, 12, '_elementor_version', '3.1.4'),
+(28, 12, '_wp_page_template', 'default'),
+(29, 12, '_elementor_data', '[{\"id\":\"8020fcf\",\"elType\":\"section\",\"settings\":[],\"elements\":[{\"id\":\"604c390\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"0e049bd\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\"},\"elements\":[{\"id\":\"1c86a4e\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[{\"id\":\"58bc928\",\"elType\":\"widget\",\"settings\":{\"image\":{\"url\":\"http:\\/\\/localhost\\/wpHMTIF\\/wp-content\\/uploads\\/2021\\/03\\/kahim.png\",\"id\":8}},\"elements\":[],\"widgetType\":\"image\"}],\"isInner\":true},{\"id\":\"01df222\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false}]'),
+(30, 13, '_elementor_edit_mode', 'builder'),
+(31, 13, '_elementor_template_type', 'wp-page'),
+(32, 13, '_elementor_version', '3.1.4'),
+(33, 13, '_wp_page_template', 'default'),
+(34, 13, '_elementor_data', '[{\"id\":\"8020fcf\",\"elType\":\"section\",\"settings\":[],\"elements\":[{\"id\":\"604c390\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"0e049bd\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\"},\"elements\":[{\"id\":\"1c86a4e\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[{\"id\":\"58bc928\",\"elType\":\"widget\",\"settings\":{\"image\":{\"url\":\"http:\\/\\/localhost\\/wpHMTIF\\/wp-content\\/uploads\\/2021\\/03\\/kahim.png\",\"id\":8}},\"elements\":[],\"widgetType\":\"image\"}],\"isInner\":true},{\"id\":\"01df222\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false}]'),
+(35, 14, '_elementor_edit_mode', 'builder'),
+(36, 14, '_elementor_template_type', 'wp-page'),
+(37, 14, '_elementor_version', '3.1.4'),
+(38, 14, '_wp_page_template', 'default'),
+(39, 14, '_elementor_data', '[{\"id\":\"8020fcf\",\"elType\":\"section\",\"settings\":[],\"elements\":[{\"id\":\"604c390\",\"elType\":\"column\",\"settings\":{\"_column_size\":100,\"_inline_size\":null},\"elements\":[{\"id\":\"0e049bd\",\"elType\":\"section\",\"settings\":{\"structure\":\"20\"},\"elements\":[{\"id\":\"1c86a4e\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[{\"id\":\"58bc928\",\"elType\":\"widget\",\"settings\":{\"image\":{\"url\":\"http:\\/\\/localhost\\/wpHMTIF\\/wp-content\\/uploads\\/2021\\/03\\/kahim.png\",\"id\":8}},\"elements\":[],\"widgetType\":\"image\"}],\"isInner\":true},{\"id\":\"01df222\",\"elType\":\"column\",\"settings\":{\"_column_size\":50,\"_inline_size\":null},\"elements\":[],\"isInner\":true}],\"isInner\":true}],\"isInner\":false}],\"isInner\":false}]'),
+(40, 6, '_elementor_controls_usage', 'a:3:{s:5:\"image\";a:3:{s:5:\"count\";i:1;s:15:\"control_percent\";i:0;s:8:\"controls\";a:1:{s:7:\"content\";a:1:{s:13:\"section_image\";a:1:{s:5:\"image\";i:1;}}}}s:6:\"column\";a:3:{s:5:\"count\";i:3;s:15:\"control_percent\";i:0;s:8:\"controls\";a:1:{s:6:\"layout\";a:1:{s:6:\"layout\";a:1:{s:12:\"_inline_size\";i:3;}}}}s:7:\"section\";a:3:{s:5:\"count\";i:2;s:15:\"control_percent\";i:0;s:8:\"controls\";a:1:{s:6:\"layout\";a:1:{s:17:\"section_structure\";a:1:{s:9:\"structure\";i:1;}}}}}'),
+(41, 6, '_elementor_css', 'a:7:{s:4:\"time\";i:1616426203;s:5:\"fonts\";a:0:{}s:5:\"icons\";a:0:{}s:20:\"dynamic_elements_ids\";a:0:{}s:6:\"status\";s:5:\"empty\";i:0;s:0:\"\";s:3:\"css\";s:0:\"\";}');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_posts`
+-- Struktur dari tabel `wp_posts`
 --
 
 CREATE TABLE `wp_posts` (
@@ -320,19 +367,29 @@ CREATE TABLE `wp_posts` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `wp_posts`
+-- Dumping data untuk tabel `wp_posts`
 --
 
 INSERT INTO `wp_posts` (`ID`, `post_author`, `post_date`, `post_date_gmt`, `post_content`, `post_title`, `post_excerpt`, `post_status`, `comment_status`, `ping_status`, `post_password`, `post_name`, `to_ping`, `pinged`, `post_modified`, `post_modified_gmt`, `post_content_filtered`, `post_parent`, `guid`, `menu_order`, `post_type`, `post_mime_type`, `comment_count`) VALUES
 (1, 1, '2021-03-22 14:59:51', '2021-03-22 14:59:51', '<!-- wp:paragraph -->\n<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>\n<!-- /wp:paragraph -->', 'Hello world!', '', 'publish', 'open', 'open', '', 'hello-world', '', '', '2021-03-22 14:59:51', '2021-03-22 14:59:51', '', 0, 'http://localhost/wpHMTIF/?p=1', 0, 'post', '', 1),
 (2, 1, '2021-03-22 14:59:51', '2021-03-22 14:59:51', '<!-- wp:paragraph -->\n<p>This is an example page. It\'s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>Hi there! I\'m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&#241;a coladas. (And gettin\' caught in the rain.)</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>...or something like this:</p>\n<!-- /wp:paragraph -->\n\n<!-- wp:quote -->\n<blockquote class=\"wp-block-quote\"><p>The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.</p></blockquote>\n<!-- /wp:quote -->\n\n<!-- wp:paragraph -->\n<p>As a new WordPress user, you should go to <a href=\"http://localhost/wpHMTIF/wp-admin/\">your dashboard</a> to delete this page and create new pages for your content. Have fun!</p>\n<!-- /wp:paragraph -->', 'Sample Page', '', 'publish', 'closed', 'open', '', 'sample-page', '', '', '2021-03-22 14:59:51', '2021-03-22 14:59:51', '', 0, 'http://localhost/wpHMTIF/?page_id=2', 0, 'page', '', 0),
 (3, 1, '2021-03-22 14:59:51', '2021-03-22 14:59:51', '<!-- wp:heading --><h2>Who we are</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Our website address is: http://localhost/wpHMTIF.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>What personal data we collect and why we collect it</h2><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>Comments</h3><!-- /wp:heading --><!-- wp:paragraph --><p>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor&#8217;s IP address and browser user agent string to help spam detection.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Media</h3><!-- /wp:heading --><!-- wp:paragraph --><p>If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Contact forms</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>Cookies</h3><!-- /wp:heading --><!-- wp:paragraph --><p>If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select &quot;Remember Me&quot;, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Embedded content from other websites</h3><!-- /wp:heading --><!-- wp:paragraph --><p>Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.</p><!-- /wp:paragraph --><!-- wp:heading {\"level\":3} --><h3>Analytics</h3><!-- /wp:heading --><!-- wp:heading --><h2>Who we share your data with</h2><!-- /wp:heading --><!-- wp:paragraph --><p>If you request a password reset, your IP address will be included in the reset email.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>How long we retain your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p>If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>What rights you have over your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p>If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Where we send your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p>Visitor comments may be checked through an automated spam detection service.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Your contact information</h2><!-- /wp:heading --><!-- wp:heading --><h2>Additional information</h2><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>How we protect your data</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>What data breach procedures we have in place</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>What third parties we receive data from</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>What automated decision making and/or profiling we do with user data</h3><!-- /wp:heading --><!-- wp:heading {\"level\":3} --><h3>Industry regulatory disclosure requirements</h3><!-- /wp:heading -->', 'Privacy Policy', '', 'draft', 'closed', 'open', '', 'privacy-policy', '', '', '2021-03-22 14:59:51', '2021-03-22 14:59:51', '', 0, 'http://localhost/wpHMTIF/?page_id=3', 0, 'page', '', 0),
-(4, 1, '2021-03-22 15:00:04', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2021-03-22 15:00:04', '0000-00-00 00:00:00', '', 0, 'http://localhost/wpHMTIF/?p=4', 0, 'post', '', 0);
+(4, 1, '2021-03-22 15:00:04', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2021-03-22 15:00:04', '0000-00-00 00:00:00', '', 0, 'http://localhost/wpHMTIF/?p=4', 0, 'post', '', 0),
+(5, 0, '2021-03-22 15:15:05', '2021-03-22 15:15:05', '', 'Default Kit', '', 'publish', 'closed', 'closed', '', 'default-kit', '', '', '2021-03-22 15:15:05', '2021-03-22 15:15:05', '', 0, 'http://localhost/wpHMTIF/?elementor_library=default-kit', 0, 'elementor_library', '', 0),
+(6, 1, '2021-03-22 15:16:32', '2021-03-22 15:16:32', '<img width=\"500\" height=\"620\" src=\"http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png\" alt=\"\" loading=\"lazy\" srcset=\"http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png 500w, http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim-242x300.png 242w\" sizes=\"(max-width: 500px) 100vw, 500px\" style=\"width:100%;height:124%;max-width:500px;\" />', 'Visi Misi', '', 'publish', 'closed', 'closed', '', 'visi-misi', '', '', '2021-03-22 15:16:34', '2021-03-22 15:16:34', '', 0, 'http://localhost/wpHMTIF/?page_id=6', 0, 'page', '', 0),
+(7, 1, '2021-03-22 15:15:48', '2021-03-22 15:15:48', '', 'Visi Misi', '', 'inherit', 'closed', 'closed', '', '6-revision-v1', '', '', '2021-03-22 15:15:48', '2021-03-22 15:15:48', '', 6, 'http://localhost/wpHMTIF/2021/03/22/6-revision-v1/', 0, 'revision', '', 0),
+(8, 1, '2021-03-22 15:16:24', '2021-03-22 15:16:24', '', 'kahim', '', 'inherit', 'open', 'closed', '', 'kahim', '', '', '2021-03-22 15:16:24', '2021-03-22 15:16:24', '', 6, 'http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png', 0, 'attachment', 'image/png', 0),
+(9, 1, '2021-03-22 15:16:31', '2021-03-22 15:16:31', '', 'Visi Misi', '', 'inherit', 'closed', 'closed', '', '6-revision-v1', '', '', '2021-03-22 15:16:31', '2021-03-22 15:16:31', '', 6, 'http://localhost/wpHMTIF/2021/03/22/6-revision-v1/', 0, 'revision', '', 0),
+(10, 1, '2021-03-22 15:16:31', '2021-03-22 15:16:31', '', 'Visi Misi', '', 'inherit', 'closed', 'closed', '', '6-revision-v1', '', '', '2021-03-22 15:16:31', '2021-03-22 15:16:31', '', 6, 'http://localhost/wpHMTIF/2021/03/22/6-revision-v1/', 0, 'revision', '', 0),
+(11, 1, '2021-03-22 15:16:32', '2021-03-22 15:16:32', '<img width=\"500\" height=\"620\" src=\"http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png\" alt=\"\" loading=\"lazy\" srcset=\"http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png 500w, http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim-242x300.png 242w\" sizes=\"(max-width: 500px) 100vw, 500px\" style=\"width:100%;height:124%;max-width:500px;\" />', 'Visi Misi', '', 'inherit', 'closed', 'closed', '', '6-revision-v1', '', '', '2021-03-22 15:16:32', '2021-03-22 15:16:32', '', 6, 'http://localhost/wpHMTIF/2021/03/22/6-revision-v1/', 0, 'revision', '', 0),
+(12, 1, '2021-03-22 15:16:34', '2021-03-22 15:16:34', '<img width=\"500\" height=\"620\" src=\"http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png\" alt=\"\" loading=\"lazy\" srcset=\"http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png 500w, http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim-242x300.png 242w\" sizes=\"(max-width: 500px) 100vw, 500px\" style=\"width:100%;height:124%;max-width:500px;\" />', 'Visi Misi', '', 'inherit', 'closed', 'closed', '', '6-revision-v1', '', '', '2021-03-22 15:16:34', '2021-03-22 15:16:34', '', 6, 'http://localhost/wpHMTIF/2021/03/22/6-revision-v1/', 0, 'revision', '', 0),
+(13, 1, '2021-03-22 15:16:34', '2021-03-22 15:16:34', '<img width=\"500\" height=\"620\" src=\"http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png\" alt=\"\" loading=\"lazy\" srcset=\"http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png 500w, http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim-242x300.png 242w\" sizes=\"(max-width: 500px) 100vw, 500px\" style=\"width:100%;height:124%;max-width:500px;\" />', 'Visi Misi', '', 'inherit', 'closed', 'closed', '', '6-revision-v1', '', '', '2021-03-22 15:16:34', '2021-03-22 15:16:34', '', 6, 'http://localhost/wpHMTIF/2021/03/22/6-revision-v1/', 0, 'revision', '', 0),
+(14, 1, '2021-03-22 15:16:34', '2021-03-22 15:16:34', '<img width=\"500\" height=\"620\" src=\"http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png\" alt=\"\" loading=\"lazy\" srcset=\"http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim.png 500w, http://localhost/wpHMTIF/wp-content/uploads/2021/03/kahim-242x300.png 242w\" sizes=\"(max-width: 500px) 100vw, 500px\" style=\"width:100%;height:124%;max-width:500px;\" />', 'Visi Misi', '', 'inherit', 'closed', 'closed', '', '6-revision-v1', '', '', '2021-03-22 15:16:34', '2021-03-22 15:16:34', '', 6, 'http://localhost/wpHMTIF/2021/03/22/6-revision-v1/', 0, 'revision', '', 0);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_termmeta`
+-- Struktur dari tabel `wp_termmeta`
 --
 
 CREATE TABLE `wp_termmeta` (
@@ -345,7 +402,7 @@ CREATE TABLE `wp_termmeta` (
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_terms`
+-- Struktur dari tabel `wp_terms`
 --
 
 CREATE TABLE `wp_terms` (
@@ -356,7 +413,7 @@ CREATE TABLE `wp_terms` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `wp_terms`
+-- Dumping data untuk tabel `wp_terms`
 --
 
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
@@ -365,7 +422,7 @@ INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_term_relationships`
+-- Struktur dari tabel `wp_term_relationships`
 --
 
 CREATE TABLE `wp_term_relationships` (
@@ -375,7 +432,7 @@ CREATE TABLE `wp_term_relationships` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `wp_term_relationships`
+-- Dumping data untuk tabel `wp_term_relationships`
 --
 
 INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_order`) VALUES
@@ -384,7 +441,7 @@ INSERT INTO `wp_term_relationships` (`object_id`, `term_taxonomy_id`, `term_orde
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_term_taxonomy`
+-- Struktur dari tabel `wp_term_taxonomy`
 --
 
 CREATE TABLE `wp_term_taxonomy` (
@@ -397,7 +454,7 @@ CREATE TABLE `wp_term_taxonomy` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `wp_term_taxonomy`
+-- Dumping data untuk tabel `wp_term_taxonomy`
 --
 
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
@@ -406,7 +463,7 @@ INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `desc
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_usermeta`
+-- Struktur dari tabel `wp_usermeta`
 --
 
 CREATE TABLE `wp_usermeta` (
@@ -417,7 +474,7 @@ CREATE TABLE `wp_usermeta` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `wp_usermeta`
+-- Dumping data untuk tabel `wp_usermeta`
 --
 
 INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALUES
@@ -436,13 +493,15 @@ INSERT INTO `wp_usermeta` (`umeta_id`, `user_id`, `meta_key`, `meta_value`) VALU
 (13, 1, 'wp_user_level', '10'),
 (14, 1, 'dismissed_wp_pointers', ''),
 (15, 1, 'show_welcome_panel', '1'),
-(16, 1, 'session_tokens', 'a:1:{s:64:\"abd0ce347da564c1b021fd1d2469d63c3217eb583a7dd3708d77b35d80d76612\";a:4:{s:10:\"expiration\";i:1616598000;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:114:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36\";s:5:\"login\";i:1616425200;}}'),
-(17, 1, 'wp_dashboard_quick_press_last_post_id', '4');
+(16, 1, 'session_tokens', 'a:2:{s:64:\"abd0ce347da564c1b021fd1d2469d63c3217eb583a7dd3708d77b35d80d76612\";a:4:{s:10:\"expiration\";i:1616598000;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:114:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36\";s:5:\"login\";i:1616425200;}s:64:\"06fb91023360460150cee55e87bf173378ffaa5da8acca37061db8d233a463fe\";a:4:{s:10:\"expiration\";i:1616598924;s:2:\"ip\";s:3:\"::1\";s:2:\"ua\";s:114:\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36\";s:5:\"login\";i:1616426124;}}'),
+(17, 1, 'wp_dashboard_quick_press_last_post_id', '4'),
+(18, 1, 'wp_user-settings', 'libraryContent=browse'),
+(19, 1, 'wp_user-settings-time', '1616426195');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `wp_users`
+-- Struktur dari tabel `wp_users`
 --
 
 CREATE TABLE `wp_users` (
@@ -459,7 +518,7 @@ CREATE TABLE `wp_users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
--- Dumping data for table `wp_users`
+-- Dumping data untuk tabel `wp_users`
 --
 
 INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_email`, `user_url`, `user_registered`, `user_activation_key`, `user_status`, `display_name`) VALUES
@@ -470,7 +529,7 @@ INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_
 --
 
 --
--- Indexes for table `wp_commentmeta`
+-- Indeks untuk tabel `wp_commentmeta`
 --
 ALTER TABLE `wp_commentmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -478,7 +537,7 @@ ALTER TABLE `wp_commentmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_comments`
+-- Indeks untuk tabel `wp_comments`
 --
 ALTER TABLE `wp_comments`
   ADD PRIMARY KEY (`comment_ID`),
@@ -489,14 +548,14 @@ ALTER TABLE `wp_comments`
   ADD KEY `comment_author_email` (`comment_author_email`(10));
 
 --
--- Indexes for table `wp_links`
+-- Indeks untuk tabel `wp_links`
 --
 ALTER TABLE `wp_links`
   ADD PRIMARY KEY (`link_id`),
   ADD KEY `link_visible` (`link_visible`);
 
 --
--- Indexes for table `wp_options`
+-- Indeks untuk tabel `wp_options`
 --
 ALTER TABLE `wp_options`
   ADD PRIMARY KEY (`option_id`),
@@ -504,7 +563,7 @@ ALTER TABLE `wp_options`
   ADD KEY `autoload` (`autoload`);
 
 --
--- Indexes for table `wp_postmeta`
+-- Indeks untuk tabel `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -512,7 +571,7 @@ ALTER TABLE `wp_postmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_posts`
+-- Indeks untuk tabel `wp_posts`
 --
 ALTER TABLE `wp_posts`
   ADD PRIMARY KEY (`ID`),
@@ -522,7 +581,7 @@ ALTER TABLE `wp_posts`
   ADD KEY `post_author` (`post_author`);
 
 --
--- Indexes for table `wp_termmeta`
+-- Indeks untuk tabel `wp_termmeta`
 --
 ALTER TABLE `wp_termmeta`
   ADD PRIMARY KEY (`meta_id`),
@@ -530,7 +589,7 @@ ALTER TABLE `wp_termmeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_terms`
+-- Indeks untuk tabel `wp_terms`
 --
 ALTER TABLE `wp_terms`
   ADD PRIMARY KEY (`term_id`),
@@ -538,14 +597,14 @@ ALTER TABLE `wp_terms`
   ADD KEY `name` (`name`(191));
 
 --
--- Indexes for table `wp_term_relationships`
+-- Indeks untuk tabel `wp_term_relationships`
 --
 ALTER TABLE `wp_term_relationships`
   ADD PRIMARY KEY (`object_id`,`term_taxonomy_id`),
   ADD KEY `term_taxonomy_id` (`term_taxonomy_id`);
 
 --
--- Indexes for table `wp_term_taxonomy`
+-- Indeks untuk tabel `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
   ADD PRIMARY KEY (`term_taxonomy_id`),
@@ -553,7 +612,7 @@ ALTER TABLE `wp_term_taxonomy`
   ADD KEY `taxonomy` (`taxonomy`);
 
 --
--- Indexes for table `wp_usermeta`
+-- Indeks untuk tabel `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
   ADD PRIMARY KEY (`umeta_id`),
@@ -561,7 +620,7 @@ ALTER TABLE `wp_usermeta`
   ADD KEY `meta_key` (`meta_key`(191));
 
 --
--- Indexes for table `wp_users`
+-- Indeks untuk tabel `wp_users`
 --
 ALTER TABLE `wp_users`
   ADD PRIMARY KEY (`ID`),
@@ -570,71 +629,71 @@ ALTER TABLE `wp_users`
   ADD KEY `user_email` (`user_email`);
 
 --
--- AUTO_INCREMENT for dumped tables
+-- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
 --
--- AUTO_INCREMENT for table `wp_commentmeta`
+-- AUTO_INCREMENT untuk tabel `wp_commentmeta`
 --
 ALTER TABLE `wp_commentmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `wp_comments`
+-- AUTO_INCREMENT untuk tabel `wp_comments`
 --
 ALTER TABLE `wp_comments`
   MODIFY `comment_ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `wp_links`
+-- AUTO_INCREMENT untuk tabel `wp_links`
 --
 ALTER TABLE `wp_links`
   MODIFY `link_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `wp_options`
+-- AUTO_INCREMENT untuk tabel `wp_options`
 --
 ALTER TABLE `wp_options`
-  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=167;
+  MODIFY `option_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=175;
 
 --
--- AUTO_INCREMENT for table `wp_postmeta`
+-- AUTO_INCREMENT untuk tabel `wp_postmeta`
 --
 ALTER TABLE `wp_postmeta`
-  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=42;
 
 --
--- AUTO_INCREMENT for table `wp_posts`
+-- AUTO_INCREMENT untuk tabel `wp_posts`
 --
 ALTER TABLE `wp_posts`
-  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
--- AUTO_INCREMENT for table `wp_termmeta`
+-- AUTO_INCREMENT untuk tabel `wp_termmeta`
 --
 ALTER TABLE `wp_termmeta`
   MODIFY `meta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT for table `wp_terms`
+-- AUTO_INCREMENT untuk tabel `wp_terms`
 --
 ALTER TABLE `wp_terms`
   MODIFY `term_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `wp_term_taxonomy`
+-- AUTO_INCREMENT untuk tabel `wp_term_taxonomy`
 --
 ALTER TABLE `wp_term_taxonomy`
   MODIFY `term_taxonomy_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT for table `wp_usermeta`
+-- AUTO_INCREMENT untuk tabel `wp_usermeta`
 --
 ALTER TABLE `wp_usermeta`
-  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `umeta_id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
--- AUTO_INCREMENT for table `wp_users`
+-- AUTO_INCREMENT untuk tabel `wp_users`
 --
 ALTER TABLE `wp_users`
   MODIFY `ID` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
